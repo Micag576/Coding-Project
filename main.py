@@ -2,11 +2,11 @@ print("Welcome to my Survival Game Tracker. Determine if your players survived o
 
 def calc_avg(scores):
     total=sum(scores) 
-    avg= total/len(scores)
+    avg = total/len(scores)
     return avg
 
 def status(avg):
-    if avg  >=70:
+    if avg  >= 70:
         return "Escaped"
     else:
         return "Game Over"
